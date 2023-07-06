@@ -1,0 +1,12 @@
+select {
+    color: rgb(0, 0, 0);
+
+    border: solid rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    height: 5rem;
+    line-height: 1rem;
+    font-size: 2rem;
+   }
