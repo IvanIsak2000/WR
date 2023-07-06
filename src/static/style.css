@@ -1,13 +1,12 @@
 body{
-    background-image: url('/static/images/background.jpg');
+    background-image:  url('/static/images/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 40% 100%;
     background-position: right;
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
-    position: absolute;
 }
+
+
 
 a {
     position: relative;
@@ -43,18 +42,22 @@ a:focus:after {
     font-family: 'Gruppo', sans-serif;
 }
 
+.links{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;    
+}
+
 .cities{
     position: absolute;
     top: 50px;
     left: 90px;
-
 }
 
 .countries{
     position: absolute;
     top: 50px;
     left: 450px;
-
 }
 
 .people{
@@ -63,4 +66,41 @@ a:focus:after {
     left: 900px;
 }
 
+.cookie-container{
+    position: absolute;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 45rem;
+    left: 15rem;
+    display: flex;
+    border-radius: 2rem;
+    border: 0.3rem solid rgb(0, 0, 0);
+    padding: 1rem 1rem;
+    width: 35rem;
+    height: 12rem;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    align-items: center;
+}
 
+.cookie{
+    padding-right: 0.5rem;
+}
+
+.cookie-title{
+    font-size: 2rem;
+    padding: 0rem 0.5rem;
+}
+
+.cookie-subtitle{
+    font-size: 1rem;
+    padding: 0rem 0.5rem;
+}
+
+button{
+    background-color: #000000;
+    color: white;
+    font-size: 1rem;
+    width: 15rem;
+}
