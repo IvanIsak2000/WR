@@ -1,0 +1,66 @@
+body{
+    background-image: url('/static/images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 40% 100%;
+    background-position: right;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+}
+
+a {
+    position: relative;
+    color: #000000; 
+    cursor: pointer;
+    line-height: 1; 
+    text-decoration: none;             
+
+}
+
+a:after {
+    display: block;
+    position: absolute;
+    left: 0; 
+    width: 0;
+    height: 2px; 
+    background-color: #000000; 
+    content: "";
+    transition: width 0.8s ease-out; 
+}
+
+a:hover:after,
+a:focus:after {
+    width: 100%; 
+}
+
+.main-text{
+    font-size: 130px;
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    line-height: 70px;
+    font-family: 'Gruppo', sans-serif;
+}
+
+.cities{
+    position: absolute;
+    top: 50px;
+    left: 90px;
+
+}
+
+.countries{
+    position: absolute;
+    top: 50px;
+    left: 450px;
+
+}
+
+.people{
+    position: absolute;
+    top: 50px;
+    left: 900px;
+}
+
+
