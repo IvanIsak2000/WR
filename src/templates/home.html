@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WR</title>
 
-    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/css/home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
@@ -21,7 +21,6 @@
 </head>
 
 <body>
-
     <div class="main-text">
         <p style="letter-spacing: 1em;">WORLD</p>
         <p style="letter-spacing: 0.98em;">ROUND</p>
@@ -29,7 +28,7 @@
 
     <div class="links">
         <div class="cities">
-            <a href="cities.html">CITIES</a>
+            <a href="{{ url_for('cities') }}">CITIES</a>
         </div>
 
         <div class="countries">
@@ -77,6 +76,6 @@
 
    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="static/app.js"></script>
+    <script src="static/js/cookie.js"></script>
 </body>
 </html>
