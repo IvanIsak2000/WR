@@ -42,28 +42,37 @@ a:focus:after {
     font-family: 'Gruppo', sans-serif;
 }
 
-.links{
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
-    position: absolute;    
-}
-
-.cities{
+.explore{
     position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
     top: 50px;
     left: 90px;
 }
 
-.countries{
+.login{
     position: absolute;
     top: 50px;
-    left: 450px;
+    left: 460px;
+    width: 10rem;
+    font-size: 2.5rem;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    border: 0.2rem solid rgb(0, 0, 0);  
+    font-family: 'Roboto', sans-serif;
+
 }
 
-.people{
+.signup{
     position: absolute;
     top: 50px;
-    left: 900px;
+    left: 900px; 
+    width: 10rem;
+    font-size: 2.5rem;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    border: 0.2rem solid rgb(0, 0, 0);    
+    font-family: 'Roboto', sans-serif; 
 }
 
 .cookie-container{
@@ -98,7 +107,7 @@ a:focus:after {
     padding: 0rem 0.5rem;
 }
 
-button{
+.accept{
     background-color: #000000;
     color: white;
     font-size: 1rem;

@@ -26,19 +26,20 @@
         <p style="letter-spacing: 0.98em;">ROUND</p>
     </div>
 
-    <div class="links">
-        <div class="cities">
-            <a href="{{ url_for('cities') }}">CITIES</a>
-        </div>
-
-        <div class="countries">
-            <a href="countries.html">COUNTRIES</a>
-        </div>
-
-        <div class="people">
-            <a href="people.html">PEOPLE</a>
-        </div>  
+    <div class="explore">
+        <a href="{{ url_for('explore')}}">Explore</a>
     </div>
+
+    <button class="login">Log in</button>
+    <button class="signup">Sign up</button>
+
+
+    <form action="" method="post">
+        <label for="username">Name</label>
+        <input type="text" name="username">
+        <input type="submit">
+    </form>
+
 
     <div class="cookie-container">
         <svg class="cookie" width="110" height="110" viewBox="0 0 125 125" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +71,7 @@
                 We are here to help you comply with Cookie Laws <br> 
                 and get better data from your Cookie Banner. 
             </p>
-            <button>Accept</button>
+            <button class="accept">Accept</button>
     </div>
 
 
