@@ -2,10 +2,9 @@ body{
     background-image:  url('/static/images/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 40% 100%;
+    background-size: 100% 100%;
     background-position: right;
 }
-
 
 
 a {
@@ -14,7 +13,6 @@ a {
     cursor: pointer;
     line-height: 1; 
     text-decoration: none;             
-
 }
 
 a:after {
@@ -34,11 +32,12 @@ a:focus:after {
 }
 
 .main-text{
-    font-size: 130px;
+    font-size: 13rem;
     position: absolute;
     top: 200px;
     left: 90px;
     line-height: 70px;
+    color: white;
     font-family: 'Gruppo', sans-serif;
 }
 
@@ -107,9 +106,16 @@ a:focus:after {
     padding: 0rem 0.5rem;
 }
 
-.accept{
+.cookie-container button{
     background-color: #000000;
     color: white;
     font-size: 1rem;
     width: 15rem;
+    border-radius: 2rem;
+    transition-duration: 0.8s;
+}
+
+.cookie-container button:hover{
+    background-color: #e7e7e7;
+    color: rgb(0, 0, 0);
 }
