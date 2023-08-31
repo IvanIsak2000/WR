@@ -19,7 +19,7 @@ def explore():
     return render_template('explore.html')
 
 
-@app.route('/login',methods = ['POST'])
+@app.route('/login', methods=['POST'])
 def login():
     fake_name = 'iwan'
     user = request.form['nm']
