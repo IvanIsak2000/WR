@@ -6,6 +6,15 @@ body{
     background-position: right;
 }
 
+nav{
+    position: relative;
+    background-color: #000000;
+    left: 0rem;
+    top: -1rem;
+    height: 5rem;
+    width: 100%;
+
+}
 
 a {
     position: relative;
@@ -34,10 +43,12 @@ a:focus:after {
 .main-text{
     font-size: 13rem;
     position: absolute;
-    top: 200px;
-    left: 90px;
+    transform: translate(-50%, -50%);
+    left: 52.5%;
+    top: 50%;
     line-height: 70px;
-    color: white;
+    color: rgb(247, 248, 248);
+    font-weight: 400;
     font-family: 'Gruppo', sans-serif;
 }
 
@@ -59,7 +70,6 @@ a:focus:after {
     border-radius: 2rem;
     border: 0.2rem solid rgb(0, 0, 0);  
     font-family: 'Roboto', sans-serif;
-
 }
 
 .signup{
@@ -78,40 +88,45 @@ a:focus:after {
     position: absolute;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    position: absolute;
-    top: 45rem;
-    left: 15rem;
+    top: 46.5rem;
+    left: 0rem;
     display: flex;
-    border-radius: 2rem;
-    border: 0.3rem solid rgb(0, 0, 0);
-    padding: 1rem 1rem;
-    width: 35rem;
-    height: 12rem;
+    border-top: 0.3rem solid rgb(0, 0, 0);
+    width: 100%;
+    height: 14rem;
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
-    align-items: center;
 }
 
 .cookie{
-    padding-right: 0.5rem;
+    position: relative;
+    padding-right: 1rem;
+    left: 1rem;
+    top: 2rem;
 }
 
 .cookie-title{
+    position: relative;
     font-size: 2rem;
     padding: 0rem 0.5rem;
+    left: 1.5rem;
 }
 
 .cookie-subtitle{
+    position: relative;
     font-size: 1rem;
     padding: 0rem 0.5rem;
+    left: 1.5rem;
 }
 
 .cookie-container button{
+    position: relative;
     background-color: #000000;
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: 15rem;
     border-radius: 2rem;
+    left: 1.5rem;
     transition-duration: 0.8s;
 }
 
