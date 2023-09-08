@@ -1,0 +1,2 @@
+- [ ] Create best template tor main page
+- [ ] add map and select list to country
